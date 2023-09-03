@@ -7,5 +7,5 @@ export const middleware = (request: any) => {
 export default middleware;
 
 export const config = {
-  matcher: ['/todos'],
+  matcher: ['/some'],
 };
