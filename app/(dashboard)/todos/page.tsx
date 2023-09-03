@@ -3,7 +3,7 @@ import db from '@/utils/db';
 
 const getData = async () => {
   // simulating server response to visualize the loading/error component
-  await new Promise((resolve, reject) => setTimeout(() => reject(0), 2000));
+  // await new Promise((resolve, reject) => setTimeout(() => reject(0), 2000));
   const todos = await db.todo.findMany({});
   return todos;
 };
